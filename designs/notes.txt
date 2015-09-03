@@ -1,0 +1,26 @@
+List of residues mutated in our designs (14):
+
+119+126+225+226+227+244+247+251+257+455+457+510+545+547
+
+Structure-based analysis. First shell (9): 
+
+V546
+F226
+A227
+F547
+F244
+V545
+Y126
+L257
+M225
+
+Second shell (7):
+
+ALA247
+LEU251
+GLY421
+TYR455
+LEU457
+THR510
+VAL546
+
