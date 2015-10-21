@@ -1,7 +1,7 @@
 import sys 
 import uuid
 
-print 'mutant_label,sequencing_primer,oligo_label,sequence,scale,purification'
+print 'mutant_label,oligo_label,sequence,scale,purification'
 
 for line in sys.stdin:
   spl = line.strip( ).split( )
@@ -10,4 +10,4 @@ for line in sys.stdin:
 
   for index, oligo in enumerate( oligos ):
     if len( oligo ) > 32:
-      print '%s,NA,%s,%s,25nm,standard' % ( mutant, 'oligo{}'.format( index ), oligo ) 
+      print '{0},{0}_{1},{2},25nm,standard'.format( mutant, 'oligo{}'.format( index ), oligo ) 
